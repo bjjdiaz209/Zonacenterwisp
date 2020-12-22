@@ -3,10 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZonaCenter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>ZonaCenters</title>
 </head>
 <body>
-    <h1>hola</h1>
+    <!-- navbar -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Zona center</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#acercadenosotros" class="nav__link">Acerca de Nosotros</a></li>
+                    <li class="nav__item"><a href="#servicios" class="nav__link">Servicios</a></li>
+                    <li class="nav__item"><a href="#tarifas" class="nav__link">Tarifas Internet</a></li>
+                    <li class="nav__item"><a href="#fichas" class="nav__link">Fichas Wifi</a></li>
+                    <li class="nav__item"><a href="#trabajos" class="nav__link">Trabajos</a></li>
+                    <li class="nav__item"><a href="#contacto" class="nav__link">contacto</a></li>
+
+
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main">
+           <!-- HOME -->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hola<br>Somos <span class="home__title-color">Zona Center</span><br>Redes Inalambricas</h1>
+                
+              
+            </div>
+
+            <div class="home__social">
+                <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+            </div>
+            <div class="home__img">    
+                <img src="imagenes/zonacenter.png" alt="">
+            </div>
+
+        </section>
+
+        <section class="about section " id="acercadenosotros">
+            <h2 class="section-title">Acerca de Nosotros</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="imagenes/acercanosotros.png" alt="">
+                </div>
+                
+                <div>
+                    <h2 class="about__subtitle">Zona Center</h2>
+                    <p class="about__text"> Somos un centro multiservicios con más de 8 años , ofreciendo soluciones en ingenieria de redes Inalambricas , optimizacion de redes locales  </p>           
+                </div>                                   
+            </div>
+        </section>
+   <!-- Servicios -->
+        <section class="work section" id="servicios">
+            <h2 class="section-title">Servicios</h2>
+
+            <div class="service bd-grid">
+            <div class="card">
+            <div class="work__img">
+                <img src="imagenes/work3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>Conexin Inalambrica</h2>
+                <p>*Cómo funciona?*
+                    Ubicando una antena de radio especializada en transmisión de datos, te dejamos un router WI-FI dentro de su casa o oficina , una vez configurado usted dispondrá de internet en una tarifa única.</p>
+            </div>
+            </div>
+            <div class="card">
+            <div class="work__img">
+                <img src="imagenes/work3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>Zona Wifi</h2>
+                <p>*Cómo funciona?*
+                    Ubicando una antena de radio especializada en transmisión de datos, te dejamos un router WI-FI dentro de su casa o oficina , una vez configurado usted dispondrá de internet en una tarifa única.</p>
+            </div>
+            </div>
+
+            <div class="card">
+            <div class="work__img">
+                <img src="imagenes/work3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>Servicio Técnico en Redes</h2>
+                <p>*Cómo funciona?*
+                    Ubicando una antena de radio especializada en transmisión de datos, te dejamos un router WI-FI dentro de su casa o oficina , una vez configurado usted dispondrá de internet en una tarifa única.</p>
+            </div>
+            </div>
+            <div class="card">
+            <div class="work__img">
+                <img src="imagenes/work3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>Servicio Técnico PCs</h2>
+                <p>*Cómo funciona?*
+                    Ubicando una antena de radio especializada en transmisión de datos, te dejamos un router WI-FI dentro de su casa o oficina , una vez configurado usted dispondrá de internet en una tarifa única.</p>
+            </div>
+            </div>
+
+           </div>            
+        
+        </section>
+
+    </main>
+
+
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/main.js"></script>
     
 </body>
 </html>
